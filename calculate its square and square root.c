@@ -18,8 +18,6 @@ scanf("%d",&a);
 
 sqr=a*a;
 sqrroot=sqrt(a);
-// sqr denote for squre of value
-// sqrroot denote for  square root of value
 
 printf(" The square of your value is: %d\n",sqr);
 printf(" The square root of your value is : %d\n",sqrroot);
