@@ -18,15 +18,15 @@
  scanf("%d",&b);
  printf("Enter any Third Number :\n");
  scanf("%d",&c);
- if ((a>b && a>c))
+ if ((a>=b && a>=c))
  {
      printf("No %d is largest among three numbers",a);
  }
- else if ((b>a && b>c))
+ else if ((b>=a && b>=c))
  {
      printf("No %d is largest among three numbers",b);
  }
- else
+ else if ((c>=a && c>=b))
  {
      printf(" %d is largest among three numbers",c);
  }
